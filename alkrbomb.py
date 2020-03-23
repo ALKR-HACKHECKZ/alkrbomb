@@ -11,15 +11,15 @@ def banner():
         os.system("clear")
     
                        
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
-print(r"                                                                             ")
+print(r"                                                                                              ")
+print(r"                                                                                              ")
+print(r"          _   _                    _                    _      _                  _           ")
+print(r"   __ _  | | | | _   _ __         | |__    __ _   ___  | |    | |__    __   ___  | | _  ___   ")
+print(r"  / _` | | | | |/ / | '__|  ____  | __ \  / _' | / __| | |/ / | __ \  / _/ / __| | |/ /|__ \  ")
+print(r" | (_| | | | |   <  | |    |____| | | | || (_| || (__  |   <  | | | ||  _/| (__  |   <   //__ ")
+print(r"  \__,_| |_| |_|\_\ |_|           |_| |_| \__,_| \___| |_|\_\ |_| |_| \__| \___| |_|\_\ /___| ")
+print(r"                                                                                              ")
+print(r"                                                                                              ")
     
 def send(target, counter, delay):
     bombers = {
@@ -38,7 +38,7 @@ def send(target, counter, delay):
         banner()
         api = random.choice(list(bombers))
 
-        print("===================CYBER KALLAN BOMBING SYSTEM====================")
+        print("============================ALKRBOMB==============================")
         print("                BOMBING in progress, please wait !!               ")
         print("     Please keep your data connection active during bombing !!    ")
         print("==================================================================")
@@ -48,8 +48,8 @@ def send(target, counter, delay):
         print("             Failed Requests         : ", failed)
         print("             API used to BOMB Target : ", api)
         print("==================================================================")
-        print(".         SUBSCRIBE CYBER KALLAN YOUTUBE CHANNEL FOR MORE         ")
-        print("              Use this for fun, not for revenge !!                ")
+        print(".   SUBSCRIBE MY YOUTUBE CHANNEL ALKR-HACKHECKZ FOR MORE HACK     ")
+        print("         PLEASE USE THIS FOR FUN,DONT USE IT FOR REVENGE          ")
         print("==================================================================")
 
         result_url=str(bombers[api])+target
